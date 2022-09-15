@@ -233,73 +233,77 @@ main section .text-top .check .check-1{
 /* /TOP */
 
 /* MIDDLE */
-main section .middle{
+main section .middle-card{
   gap: 50px;
   padding-top: 20px;
 }
 
-main section .middle .card{
-  height: 950px;
+main section .middle-card .card{
   min-width: 300px;
   border-bottom:1px solid #dcdcde;
   border-left:1px solid #dcdcde;
   border-right:1px solid #dcdcde;
   border-top:1px solid #dcdcde;
-
 }
 
-main section .middle .card .type{
+main section .middle-card .card .type{
   border-bottom: 1px solid #dcdcde;
   padding: 10px;
   text-align: center;
 }
 
-main section .middle .card .type>span{
+main section .middle-card .card .type>span{
   font-size: 0.9rem;
 }
 
-main section .middle .card .info{
+main section .middle-card .card .info{
 padding: 30px;
 font-size: 0.9rem;
 }
 
-main section .middle .card .info h3{
+main section .middle-card .card .info h3{
   font-size: 1.5rem;
   padding-bottom: 10px;
 }
 
-main section .middle .card .info p.price{
+main section .middle-card .card .info p.price{
   font-weight: bold;
   padding-bottom: 10px;
 }
 
-main section .middle .card .info ul{
+main section .middle-card .card .info ul{
   padding-top: 40px;
 }
 
-main section .middle .card .info ul li{
-  padding-top: 20px;
+i{
+  line-height: 1200px;
 }
 
-main section .middle .card .cta a{
+main section .middle-card .card .info ul li{
+  display: flex;
+  padding-top: 20px;
+  gap: 5px;
+}
+
+main section .middle-card .card .cta a{
   text-decoration: none;
 }
 
-main section .middle .card .info .cta{
+main section .middle-card .card .info .cta{
   padding-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-main section .middle .card .buy{
+main section .middle-card .card .buy{
   padding-top: 40px;
 }
 
-main section .middle .card .highlights{
+main section .middle-card .card .highlights{
   padding-top: 40px;
 }
 
-main section .middle .card .highlights ul li i{
+main section .middle-card .card .highlights ul li i{
   color: #0061ff;
 }
