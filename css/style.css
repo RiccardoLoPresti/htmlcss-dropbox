@@ -4,3 +4,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  height: 90px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+main{
+  padding-top: 90px;
+  height: 2000px;
+  background-color: #b4d0e7;
+}
+
+
+.container{
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.debug{
+  background-color: rgba(101, 183, 255, 0.349);
+  border: 1px solid black;
+}
+
+.d-flex{
+  display: flex;
+}
+
+/* HEADER  DA SISTEMARE UNDERLINE HOVER E ACCEDI*/
+header nav ul{
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 20px;
+  height: 100%;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  font-size: 1.03rem;
+  color: #828282;
+}
+
+header nav ul li a:hover{
+  border-bottom: 4px solid #0061ff;
+  padding-bottom: 37px;
+}
+
+header nav.wrap{
+  align-items: center;
+  height: 100%;
+}
+
+header nav .nav-cont{
+  
+  width: 100%;
+  justify-content: space-between;
+}
+
+header nav .header-left{
+  margin-left: 20px;
+}
