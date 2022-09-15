@@ -31,8 +31,25 @@ img{
   max-width: 100%;
 }
 
-a{
-  text-decoration: none;
+ul{
+  list-style: none;
+}
+
+/* CHECKBOX */
+.checkbox-round {
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 3px solid rgb(100, 100, 100);
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: #0061ff;
 }
 
 /* UTILITY */
@@ -41,6 +58,10 @@ a{
   width: 90%;
   margin: 0 auto;
   padding: 10px;
+}
+
+.second-container{
+  max-width: 1000px;
 }
 
 .debug{
@@ -74,7 +95,6 @@ a{
 
 /* HEADER  DA SISTEMARE UNDERLINE HOVER E ACCEDI*/
 header nav ul{
-  list-style: none;
   display: flex;
 }
 
@@ -82,6 +102,10 @@ header nav ul li{
   display: inline-block;
   height: 100%;
   padding-left: 30px;
+}
+
+header a{
+  text-decoration: none;
 }
 
 header nav ul li a{
@@ -133,6 +157,10 @@ header nav .header-right ul li .btn.blue.accedi{
   background-color: #b4d0e7;
 }
 
+.jumbotron a{
+  text-decoration: none;
+}
+
 .jumbo-top h1{
   padding-top: 60px;
   font-size: 4.7rem;
@@ -174,4 +202,66 @@ header nav .header-right ul li .btn.blue.accedi{
 
 .jumbo-bottom .img-right{
   width: 80%
+}
+
+/* MAIN */
+main section .text-top{
+  padding-top: 40px;
+}
+
+main section .text-top h2{
+  font-size: 2.5rem;
+}
+
+main section .text-top .check{
+  padding: 40px 0 ;
+}
+
+main section .text-top .check .check-1{
+  margin-right: 60px;
+}
+
+main section .middle .card .type{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+main section .middle .card .info{
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:1px solid black;
+padding: 30px;
+}
+
+main section .middle .card .info h3{
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+main section .middle .card .info ul li{
+  padding-top: 20px;
+}
+
+main section .middle .card .cta a{
+  text-decoration: none;
+}
+
+main section .middle .card .info .cta{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+main section .middle .card .buy{
+  padding-top: 40px;
+}
+
+main section .middle .card .highlights{
+  padding-top: 40px;
+}
+
+main section .middle .card .highlights ul li i{
+  color: #0061ff;
 }
