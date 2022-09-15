@@ -85,6 +85,14 @@ ul{
   border: none;
 }
 
+.long{
+  padding: 10px 30px;
+}
+
+.very-long{
+  padding: 10px 80px;
+}
+
 .accedi{
   padding: 5px 15px;
 }
@@ -93,7 +101,7 @@ ul{
   background-color: #3b86ff;
 }
 
-/* HEADER  DA SISTEMARE UNDERLINE HOVER E ACCEDI*/
+/* HEADER */
 header nav ul{
   display: flex;
 }
@@ -205,8 +213,10 @@ header nav .header-right ul li .btn.blue.accedi{
 }
 
 /* MAIN */
+/* SECTION-1 */
+/* TOP */
 main section .text-top{
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 main section .text-top h2{
@@ -220,23 +230,51 @@ main section .text-top .check{
 main section .text-top .check .check-1{
   margin-right: 60px;
 }
+/* /TOP */
+
+/* MIDDLE */
+main section .middle{
+  gap: 50px;
+  padding-top: 20px;
+}
+
+main section .middle .card{
+  height: 950px;
+  min-width: 300px;
+  border-bottom:1px solid #dcdcde;
+  border-left:1px solid #dcdcde;
+  border-right:1px solid #dcdcde;
+  border-top:1px solid #dcdcde;
+
+}
 
 main section .middle .card .type{
-  border: 1px solid black;
+  border-bottom: 1px solid #dcdcde;
   padding: 10px;
   text-align: center;
 }
 
+main section .middle .card .type>span{
+  font-size: 0.9rem;
+}
+
 main section .middle .card .info{
-border-left:1px solid black;
-border-right:1px solid black;
-border-bottom:1px solid black;
 padding: 30px;
+font-size: 0.9rem;
 }
 
 main section .middle .card .info h3{
   font-size: 1.5rem;
   padding-bottom: 10px;
+}
+
+main section .middle .card .info p.price{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+main section .middle .card .info ul{
+  padding-top: 40px;
 }
 
 main section .middle .card .info ul li{
