@@ -61,7 +61,7 @@ ul{
 }
 
 .second-container{
-  max-width: 1000px;
+  max-width: 1050px;
 }
 
 .debug{
@@ -141,7 +141,6 @@ header nav .logo img{
 }
 
 header nav .nav-cont{
-  
   width: 100%;
   justify-content: space-between;
 }
@@ -239,7 +238,7 @@ main section .middle-card{
 }
 
 main section .middle-card .card{
-  min-width: 300px;
+  width: 100%;
   border-bottom:1px solid #dcdcde;
   border-left:1px solid #dcdcde;
   border-right:1px solid #dcdcde;
@@ -266,17 +265,14 @@ main section .middle-card .card .info h3{
   padding-bottom: 10px;
 }
 
-main section .middle-card .card .info p.price{
+main section .middle-card .card .info>span.price{
+  display: block;
   font-weight: bold;
   padding-bottom: 10px;
 }
 
 main section .middle-card .card .info ul{
   padding-top: 40px;
-}
-
-i{
-  line-height: 1200px;
 }
 
 main section .middle-card .card .info ul li{
@@ -293,7 +289,7 @@ main section .middle-card .card .info .cta{
   padding-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 main section .middle-card .card .buy{
