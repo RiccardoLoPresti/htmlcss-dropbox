@@ -142,11 +142,11 @@ header nav ul{
 header nav ul li{
   display: inline-block;
   height: 100%;
-  padding-left: 30px;
 }
 
 header a{
   text-decoration: none;
+  padding: 25px;
 }
 
 header nav ul li a{
@@ -155,8 +155,7 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-  border-bottom: 4px solid #0061ff;
-  padding-bottom: 28px;
+  border-bottom: 3px solid #0061ff;
 }
 
 header nav.wrap{
