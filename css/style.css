@@ -247,10 +247,6 @@ main section .text-top{
   padding-top: 50px;
 }
 
-main section .text-top h2{
-  font-size: 2.5rem;
-}
-
 main section .text-top .check{
   padding-top: 60px;
 }
@@ -395,10 +391,6 @@ main section .box-section{
   padding-top: 170px;
 }
 
-main section .box-section h2{
-  font-size: 2.55rem;
-}
-
 main section .box-section .wrap-box{
   padding-top: 60px;
   gap: 50px;
@@ -426,7 +418,6 @@ main section .color-box-top{
 }
 
 main section .color-box-top h2{ 
-  font-size: 2.5rem;
   padding-right: 300px;
   padding-bottom: 80px;
 }
@@ -474,7 +465,6 @@ main section .faq{
 }
 
 main section .faq .question h2{
-  font-size: 2.4rem;
   padding-bottom: 70px;
 }
 
@@ -511,6 +501,7 @@ footer .footer-top .list{
 
 footer .footer-top .list h2{
   padding-bottom: 20px;
+  font-size: 1.5rem;
 }
 
 footer .footer-top .list li{
