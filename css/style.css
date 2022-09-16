@@ -451,33 +451,66 @@ main section .color-box .square-side .box-side{
   background-color: #a2d39b;
 }
 
+.green:active{
+  border: 20px solid rgba(255, 255, 255, 0.26);
+}
+
 .dark-red{
   background-color: #61082b;
+}
+
+.dark-red:active{
+  border: 20px solid rgba(255, 255, 255, 0.26);
 }
 
 .red{
   background-color: #ff1c1c;
 }
 
+.red:active{
+  border: 20px solid rgba(255, 255, 255, 0.26);
+}
+
 .red-2{
   background-color: #d5001f;
+}
+
+.red-2:active{
+  border: 20px solid rgba(255, 255, 255, 0.26);
 }
 
 .sky{
   background-color: #0093ce;
 }
 
+.sky:active{
+  border: 20px solid rgba(255, 255, 255, 0.26);
+}
+
 .lightblue{
   background-color: #b4d0e7 ;
+}
+
+.lightblue:active{
+  border: 20px solid rgba(255, 255, 255, 0.26);
 }
 
 .blue-2{
   background-color: #0d2481;
 }
 
+.blue-2:active{
+  border: 20px solid rgba(255, 255, 255, 0.26);
+}
+
 .yellow{
   background-color: #ffd830;
 }
+
+.yellow:active{
+  border: 20px solid rgba(255, 255, 255, 0.26);
+}
+
 /* MIDDLE */
 main section .color-box .square-middle{
   background-color: #f5f5f5;
