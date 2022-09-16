@@ -85,6 +85,10 @@ h2{
   margin-bottom: 10px;
 }
 
+.long-line{
+  width: 120px;
+}
+
 .f-line{
   position: absolute;
   background-color: #dcdcde;
@@ -427,10 +431,76 @@ main section .color-box-top a{
 }
 
 /* COLOR-BOX */
-main section .color-box{
-  height: 640px;
-  background-color: aquamarine;
+main section .color-box .square-side img{
+  width: 150px;
+  filter: invert(1);
 }
+
+main section .color-box .square-side{
+  height: 640px;
+  width: 640px;
+}
+
+main section .color-box .square-side .box-side{
+  width: 317px;
+  height: calc(100% / 2);
+  justify-content: center;
+  align-items: center;
+}
+
+.green{
+  background-color: #a2d39b;
+}
+
+.dark-red{
+  background-color: #61082b;
+}
+
+.red{
+  background-color: #ff1c1c;
+}
+
+.red-2{
+  background-color: #d5001f;
+}
+
+.sky{
+  background-color: #0093ce;
+}
+
+.lightblue{
+  background-color: #b4d0e7 ;
+}
+
+.blue{
+  background-color: #0d2481;
+}
+
+.yellow{
+  background-color: #ffd830;
+}
+/* MIDDLE */
+main section .color-box .square-middle{
+  width: 70%;
+  background-color: #f5f5f5;
+  height: 640px;
+  width: 640px;
+  padding: 50px;
+}
+
+main section .color-box .square-middle img{
+  width: 270px;
+}
+
+main section .color-box .square-middle p{
+  padding-top: 40px;
+}
+
+main section .color-box .square-middle span{
+  padding-top: 60px;
+  display: inline-block;
+}
+
 /* COLOR-BOX-BOTTOM */
 main section .color-box-bottom{
   height: 360px;
