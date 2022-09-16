@@ -76,6 +76,7 @@ ul{
 /* BUTTON */
 .btn{
   border: 1px solid black;
+  padding: 12px 15px;
 }
 
 .blue{
@@ -330,6 +331,40 @@ main section .middle-card .card .split .button-right{
   padding-top: 37px;
 }
 
-main section .middle-card .card .split .button-right a{
+main section .middle-card .card .split .button-right a,
+main section .wrap-partner .text-rigth .cta a{
   text-decoration: none;
 }
+/* /BOTTOM CARD */
+
+/* SECTION-2 */
+main section .wrap-partner{
+  padding-top: 130px;
+}
+
+main section .wrap-partner .immage-left{
+  width: 60%;
+}
+
+main section .wrap-partner .text-rigth{
+  width: 40%;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+main section .wrap-partner .text-rigth h2{
+  padding-bottom: 20px;
+}
+
+main section .wrap-partner .text-rigth>p{
+  padding-bottom: 40px;
+}
+
+main section .wrap-partner .text-rigth .cta a{
+  color: black;
+}
+
+main section .wrap-partner .text-rigth .cta a:hover{
+  color: rgb(109, 109, 109);
+}
+/* /SECTION-2 */
