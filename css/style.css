@@ -596,6 +596,33 @@ main section .faq .question h3{
   display: inline-block
 }
 
+main section .faq .question .hidden .overlay{
+  display: none;
+}
+
+main section .faq .question .hidden #down{
+  padding-left: 240px;
+}
+
+main section .faq .question .hidden #up{
+  display: none;
+}
+
+main section .faq .question .hidden:hover .overlay {
+  display: block;
+  padding-bottom: 40px;
+}
+
+main section .faq .question .hidden:hover #down{
+  display: none;
+}
+
+main section .faq .question .hidden:hover #up{
+  display: inline-block;
+  padding-left: 240px;
+}
+/* /SECTION-5-FAQ */
+
 /* FOOTER */
 footer{
   background-color: #000000;
