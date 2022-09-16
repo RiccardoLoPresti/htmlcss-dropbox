@@ -31,6 +31,10 @@ ul{
   list-style: none;
 }
 
+h2{
+  font-size: 2.5rem;
+}
+
 /* CHECKBOX */
 .checkbox-round {
   width: 1.4rem;
@@ -95,6 +99,12 @@ ul{
 .btn{
   border: 1px solid black;
   padding: 12px 15px;
+}
+
+.clear{
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 50px;
 }
 
 .blue{
@@ -374,7 +384,8 @@ main section .wrap-partner .text-rigth .cta a{
   color: black;
 }
 
-main section .wrap-partner .text-rigth .cta a:hover{
+main section .wrap-partner .text-rigth .cta a:hover,
+main section .color-box-bottom .cta a:hover{
   color: rgb(109, 109, 109);
 }
 /* /SECTION-2 */
@@ -406,6 +417,51 @@ main section .box-section .wrap-box .box p{
   padding: 20px 0;
 }
 /* /SECTION-3 */
+
+/* SECTION-4 */
+/* COLOR-BOX-TOP */
+main section .color-box-top{ 
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+main section .color-box-top h2{ 
+  font-size: 2.5rem;
+  padding-right: 300px;
+  padding-bottom: 80px;
+}
+
+main section .color-box-top a{ 
+  color: #1e1ef0;
+}
+
+/* COLOR-BOX */
+main section .color-box{
+  height: 640px;
+  background-color: aquamarine;
+}
+/* COLOR-BOX-BOTTOM */
+main section .color-box-bottom{
+  height: 360px;
+  background-color: #b4d0e7;
+  padding-top: 130px;
+}
+
+main section .color-box-bottom .bottom-text-left{
+  width: 70%;
+  color: #61082b;
+  padding-right: 220px;
+}
+
+main section .color-box-bottom .cta{
+  padding-top: 25px;
+  width: 30%;
+}
+
+main section .color-box-bottom .cta a{
+  text-decoration: none;
+  color: #000000;
+}
 
 /* SECTION-5-FAQ */
 main section .faq{
