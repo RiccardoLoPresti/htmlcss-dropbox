@@ -444,7 +444,12 @@ main section .color-box{
 main section .color-box-bottom{
   height: 360px;
   background-color: #b4d0e7;
-  padding-top: 130px;
+}
+
+main section .color-box-bottom .under{
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 main section .color-box-bottom .bottom-text-left{
@@ -454,8 +459,8 @@ main section .color-box-bottom .bottom-text-left{
 }
 
 main section .color-box-bottom .cta{
-  padding-top: 25px;
   width: 30%;
+  padding-bottom: 40px;
 }
 
 main section .color-box-bottom .cta a{
