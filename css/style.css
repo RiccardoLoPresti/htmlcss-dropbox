@@ -73,6 +73,10 @@ ul{
   display: flex;
 }
 
+.d-wrap{
+  flex-wrap: wrap;
+}
+
 /* BUTTON */
 .btn{
   border: 1px solid black;
@@ -368,3 +372,31 @@ main section .wrap-partner .text-rigth .cta a:hover{
   color: rgb(109, 109, 109);
 }
 /* /SECTION-2 */
+
+/* SECTION-3 */
+main section .box-section{
+  padding-top: 170px;
+}
+
+main section .box-section h2{
+  font-size: 2.55rem;
+}
+
+main section .box-section .wrap-box{
+  padding-top: 60px;
+  gap: 50px;
+}
+
+main section .box-section .wrap-box .box{
+  width: calc(100% / 3 - 50px);
+}
+
+main section .box-section .wrap-box .box h3{
+  padding: 20px 0;
+  font-size: 1.5rem;
+}
+
+main section .box-section .wrap-box .box p{
+  padding: 20px 0;
+}
+/* /SECTION-3 */
