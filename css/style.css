@@ -407,6 +407,20 @@ main section .box-section .wrap-box .box p{
 }
 /* /SECTION-3 */
 
+/* SECTION-5-FAQ */
+main section .faq{
+  padding: 160px 0;
+}
+
+main section .faq .question h2{
+  font-size: 2.4rem;
+  padding-bottom: 70px;
+}
+
+main section .faq .question h3{
+  padding: 40px 0;
+  display: inline-block
+}
 
 /* FOOTER */
 footer{
@@ -424,6 +438,7 @@ footer a:hover{
   text-decoration:underline
 }
 
+/* FOOTER  TOP*/
 footer .footer-top{
   justify-content: space-between;
   padding: 100px 0;
@@ -440,11 +455,14 @@ footer .footer-top .list h2{
 footer .footer-top .list li{
   padding:7px 0;
 }
+/* /FOOTER  TOP*/
 
+/* FOOTER  LINE*/
 footer .footer-line{
   position: relative;
 }
 
+/* FOOTER  BOTTOM*/
 footer .footer-bottom{
   padding-top: 50px;
   padding-left: 0;
