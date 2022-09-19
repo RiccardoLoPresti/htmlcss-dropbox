@@ -21,6 +21,7 @@ header{
   top: 0;
   left: 0;
   background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0px grey;
 }
 
 main, .jumbotron{
@@ -65,7 +66,7 @@ h2{
 }
 
 .second-container{
-  max-width: 1050px;
+  max-width: 1020px;
 }
 
 .debug{
@@ -471,7 +472,7 @@ main section .color-box .square-side .box-side{
   background-color: #a2d39b;
 }
 
-.green:active{
+.active{
   border: 20px solid rgba(255, 255, 255, 0.26);
 }
 
@@ -479,59 +480,31 @@ main section .color-box .square-side .box-side{
   background-color: #61082b;
 }
 
-.dark-red:active{
-  border: 20px solid rgba(255, 255, 255, 0.26);
-}
-
 .red{
   background-color: #ff1c1c;
-}
-
-.red:active{
-  border: 20px solid rgba(255, 255, 255, 0.26);
 }
 
 .red-2{
   background-color: #d5001f;
 }
 
-.red-2:active{
-  border: 20px solid rgba(255, 255, 255, 0.26);
-}
-
 .sky{
   background-color: #0093ce;
-}
-
-.sky:active{
-  border: 20px solid rgba(255, 255, 255, 0.26);
 }
 
 .lightblue{
   background-color: #b4d0e7 ;
 }
 
-.lightblue:active{
-  border: 20px solid rgba(255, 255, 255, 0.26);
-}
-
 .blue-2{
   background-color: #0d2481;
-}
-
-.blue-2:active{
-  border: 20px solid rgba(255, 255, 255, 0.26);
 }
 
 .yellow{
   background-color: #ffd830;
 }
 
-.yellow:active{
-  border: 20px solid rgba(255, 255, 255, 0.26);
-}
-
-/* MIDDLE */
+/* CENTER */
 main section .color-box .square-middle{
   background-color: #f5f5f5;
   height: 640px;
@@ -596,6 +569,7 @@ main section .faq .question h2{
 }
 
 main section .faq .question h3{
+  font-size: 1rem;
   padding: 40px 0;
   display: inline-block
 }
@@ -605,7 +579,7 @@ main section .faq .question .hidden .overlay{
 }
 
 main section .faq .question .hidden #down{
-  padding-left: 240px;
+  padding-left: 320px;
 }
 
 main section .faq .question .hidden #up{
@@ -623,7 +597,7 @@ main section .faq .question .hidden:hover #down{
 
 main section .faq .question .hidden:hover #up{
   display: inline-block;
-  padding-left: 240px;
+  padding-left: 320px;
 }
 /* /SECTION-5-FAQ */
 
