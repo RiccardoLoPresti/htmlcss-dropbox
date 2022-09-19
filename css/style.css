@@ -310,7 +310,7 @@ main section .middle-card .card .info>span.price{
 }
 
 main section .middle-card .card .info ul{
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 main section .middle-card .card .info ul li{
@@ -380,6 +380,10 @@ main section .wrap-partner{
 
 main section .wrap-partner .immage-left{
   width: 60%;
+}
+
+main section .wrap-partner h2{
+  font-size: 1.5rem;
 }
 
 main section .wrap-partner .text-rigth{
